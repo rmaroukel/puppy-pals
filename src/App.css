@@ -5,38 +5,42 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
   padding: 2em;
+  background-color: rgb(255, 157, 206);
+  border-radius: 10px;
 }
 
-.read-the-docs {
-  color: #888;
+#puppy-buttons {
+  color: rgb(102, 0, 145);
+  padding: 8px;
+  cursor: pointer;
+  background-color: rgb(203, 107, 155);
+  border-radius: 5px;
+}
+
+#puppy-buttons:hover {
+  background-color: rgb(224, 130, 255);
+}
+
+.puppy-info {
+  width: 80%;
+  padding: 2em;
+  margin-top: 2em;
+  background-color: rgb(255, 157, 206);
+  border-radius: 10px;
+}
+
+li {
+  display: flex;
+  list-style: none;
+}
+
+h2 {
+  color: rgb(102, 0, 145);
+  text-align: center;
 }
